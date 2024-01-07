@@ -60,6 +60,15 @@ p {
   color: white;
 }
 
+.project-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -93,4 +102,29 @@ p {
 
 .aboutmeTitle {
   margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .col-md-6 {
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 25px;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
